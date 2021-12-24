@@ -1,0 +1,30 @@
+{
+  "name": "starter-webpack",
+  "version": "1.0.0",
+  "description": "starter project with webpack",
+  "main": "index.js",
+  "private": true,
+  "devDependencies": {
+    "@phoenix35/eslint-config": "github:Phoenix35/eslint-config",
+    "eslint": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsdoc": "^37.4.0",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1",
+    "copy-webpack-plugin": "^10.2.0",
+    "html-webpack-plugin": "^5.5.0"
+  },
+  "scripts": {
+    "lint": "eslint ./src --ext .js",
+    "dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Remus Selea",
+  "license": "ISC"
+}

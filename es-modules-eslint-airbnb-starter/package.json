@@ -1,0 +1,16 @@
+{
+  "name": "eslint-demo",
+  "version": "1.0.0",
+  "description": "demo of using eslint",
+  "main": "/src/index.js",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "scripts": {
+    "lint": "eslint ./src --ext .js"
+  },
+  "author": "",
+  "license": "ISC"
+}
